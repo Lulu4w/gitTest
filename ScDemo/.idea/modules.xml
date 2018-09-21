@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ScAdmin/ScAdmin.iml" filepath="$PROJECT_DIR$/ScAdmin/ScAdmin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScDemo.iml" filepath="$PROJECT_DIR$/ScDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScTools/ScTools.iml" filepath="$PROJECT_DIR$/ScTools/ScTools.iml" />
+    </modules>
+  </component>
+</project>

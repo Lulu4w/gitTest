@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="gson-2.5 (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ScTools/lib/gson-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ScTools/lib/jstl-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

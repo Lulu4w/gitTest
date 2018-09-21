@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="gson-2.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ScAdmin/web/WEB-INF/lib/gson-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ScAdmin/web/WEB-INF/lib/json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ScAdmin/web/WEB-INF/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ScAdmin/web/WEB-INF/lib/log4j-api-2.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ScAdmin/web/WEB-INF/lib/log4j-core-2.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ScAdmin/web/WEB-INF/lib/noggit-0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
