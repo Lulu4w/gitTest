@@ -22,6 +22,7 @@ public class WorkAPI {
     public static WorkListResult QueryTbWorkinfoComment(String tel, int pageNo, int pageSize){
         try {
             String json = IOUtils.toString(new URL("http://61.159.180.166:8036/Service2.svc/QueryTbWorkinfoComment?tel="+tel+"&pageNo="+pageNo+"&pageSize="+pageSize), "UTF-8");
+            //System.out.println("http://61.159.180.166:8036/Service2.svc/QueryTbWorkinfoComment?tel="+tel+"&pageNo="+pageNo+"&pageSize="+pageSize);
             Gson gson = CommonUtils.createGson();
             java.lang.reflect.Type type = new TypeToken<WorkListResult>(){}.getType();
             return gson.fromJson(json, type);

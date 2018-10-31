@@ -28,16 +28,32 @@ public class BaseServlet extends HttpServlet {
 			AdminUtils.showError(req, resp, "action不能为空");
 			return;
 		}
+		String userId = AdminUtils.getAdminUserId(req);
+
 		try {
 			Method methodAction = this.getClass().getMethod(action, HttpServletRequest.class,HttpServletResponse.class);
-			if(methodAction==null)
+
+			AllowAnonymous allowAnonymous = methodAction.getAnnotation(AllowAnonymous.class);
+			if(allowAnonymous==null)//如果为null，就说明方法没有标注AllowAnonymous，则需要检查登录状态
 			{
-				AdminUtils.showError(req, resp, "找不到名字为"+action+"的方法");
+
+				if (userId == null) {
+					String ctxPath = req.getContextPath();
+					// target='_top'避免链接在iframe中打开
+					AdminUtils.showError(req, resp, "未登录<a target='_top' href='" + ctxPath + "/Index?action=login'>点此登录</a>");
+					return;//!!!!!
+				}
+			}
+
+
+			if (methodAction == null) {
+				AdminUtils.showError(req, resp, "找不到名字为" + action + "的方法");
 				return;
 			}
 			//CompanyDTO frontCompany = FrontUtils.getCurrentCompany(req);
 			//req.setAttribute("frontCompany", frontCompany);
-			methodAction.invoke(this, req,resp);
+			methodAction.invoke(this, req, resp);
+
 			
 		} catch (NoSuchMethodException | SecurityException | IllegalAccessException 
 				| IllegalArgumentException | InvocationTargetException e) {
@@ -46,7 +62,7 @@ public class BaseServlet extends HttpServlet {
 		}
 		
 	}
-	
+
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		this.doGet(req, resp);

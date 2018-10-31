@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.net.URL;
 
 public class DepartmentAPI {
-    public static DepartmentResult TbUnitByqid(int regionId) {
+    public static DepartmentResult TbUnitByqid(String regionId) {
         try {
             String json = IOUtils.toString(new URL("http://61.159.180.166:8036/Service2.svc/TbUnitByqid?qid="+ regionId), "UTF-8");
             Gson gson = CommonUtils.createGson();

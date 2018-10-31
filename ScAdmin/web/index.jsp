@@ -13,7 +13,7 @@
 <body>
   <%
     response.setStatus(HttpServletResponse.SC_MOVED_PERMANENTLY);
-    response.sendRedirect(request.getContextPath() + "/Index?action=index");
+    response.sendRedirect(request.getContextPath() + "/Index?action=login");
   %>
 </body>
 </html>

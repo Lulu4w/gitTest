@@ -6,7 +6,184 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="242d47ab-aee4-47b2-9790-b0f54d0419d5" name="Default" comment="" />
+    <list default="true" id="242d47ab-aee4-47b2-9790-b0f54d0419d5" name="Default" comment="增加了登录功能">
+      <change afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/AllowAnonymous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginPeo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/functions.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/web/css/H-ui.admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/web/css/H-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/web/css/H-ui.login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/web/css/H-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/web/css/H-ui.reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/web/css/styleLogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScAdmin/web/lib/Particleground.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/BaseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StatServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StatServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/WorkServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/WorkServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/AdminUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/AdminUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/work/WorkAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/work/WorkAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/BaseServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StatServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StatServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/AdminUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/AdminUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/_blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/_footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/_header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/_menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/_meta.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/admin-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/admin-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/admin-password-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/admin-permission.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/admin-role-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/admin-role.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/article-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/article-class-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/article-class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/article-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/change-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/charts-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/charts-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/charts-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/charts-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/charts-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/charts-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/charts-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/codeing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/feedback-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/logo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/member-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/member-del.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/member-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/member-record-browse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/member-record-download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/member-record-share.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/member-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/picture-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/picture-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/picture-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/product-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/product-brand.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/product-category-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/product-category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/product-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/record-browse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/record-download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/record-share.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/system-base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/system-category-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/system-category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/system-data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/system-log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/system-shielding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/user-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/user-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/user-password-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/user-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/【开发必读】文档目录.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war/ScAdmin_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war/ScAdmin_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/BaseServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StatServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StatServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/WorkServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/WorkServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/AdminUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/AdminUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/_blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/_footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/_header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/_menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/_meta.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/admin-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/admin-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/admin-password-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/admin-permission.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/admin-role-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/admin-role.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/article-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/article-class-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/article-class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/article-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/change-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/charts-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/charts-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/charts-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/charts-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/charts-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/charts-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/charts-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/codeing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/feedback-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/logo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/member-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/member-del.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/member-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/member-record-browse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/member-record-download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/member-record-share.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/member-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/picture-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/picture-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/picture-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/product-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/product-brand.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/product-category-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/product-category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/product-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/record-browse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/record-download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/record-share.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/system-base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/system-category-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/system-category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/system-data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/system-log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/system-shielding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/user-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/user-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/user-password-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/user-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/【开发必读】文档目录.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +192,159 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IndexServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPeo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginPeo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-840">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1087#1088#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1157#1158#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1281#1282#0" expanded="true" />
+                <element signature="e#1313#1314#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1448#1449#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1515#1516#0" expanded="true" />
+                <element signature="e#1547#1548#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1603#1604#0" expanded="true" />
+                <element signature="e#1641#1642#0" expanded="true" />
+                <element signature="e#1671#1672#0" expanded="true" />
+                <element signature="e#1706#1707#0" expanded="true" />
+                <element signature="e#1737#1738#0" expanded="true" />
+                <element signature="e#1785#1786#0" expanded="true" />
+                <element signature="e#1825#1826#0" expanded="true" />
+                <element signature="e#1862#1863#0" expanded="true" />
+                <element signature="e#1895#1896#0" expanded="true" />
+                <element signature="e#1947#1948#0" expanded="true" />
+                <element signature="e#1991#1992#0" expanded="true" />
+                <element signature="e#2021#2022#0" expanded="true" />
+                <element signature="e#2047#2048#0" expanded="true" />
+                <element signature="e#2085#2086#0" expanded="true" />
+                <element signature="e#2115#2116#0" expanded="true" />
+                <element signature="e#2149#2150#0" expanded="true" />
+                <element signature="e#2179#2180#0" expanded="true" />
+                <element signature="e#2225#2226#0" expanded="true" />
+                <element signature="e#2263#2264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/BaseServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/WorkServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkAPI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/work/WorkAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="139" column="60" lean-forward="true" selection-start-line="139" selection-start-column="60" selection-end-line="139" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proStat.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/stat/proStat.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-600">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/web/welcome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>購物車</find>
+      <find>GDATE</find>
+      <find>&quot;5224&quot;</find>
+      <find>welcom</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>regionId</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +353,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/gitTest.jsp" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/ShopCar.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/Good.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/CarShopServlet.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/shopcar.jsp" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/Calc.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/CalcTest.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginResult.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginD.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/AllowAnonymous.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginAPI.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/AdminUtils.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/functions.tld" />
+        <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/error.jsp" />
+        <option value="$PROJECT_DIR$/ScAdmin/web/index.jsp" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StatServlet.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginPeo.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/welcome.html" />
+        <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/WorkServlet.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/work/WorkAPI.java" />
       </list>
     </option>
   </component>
@@ -50,8 +398,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+        <option name="mavenHome" value="/opt/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="/opt/apache-maven-3.3.9/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -63,10 +411,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="99" />
-    <option name="width" value="1890" />
-    <option name="height" value="799" />
+    <option name="x" value="92" />
+    <option name="y" value="83" />
+    <option name="width" value="1880" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -76,8 +424,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,6 +440,62 @@
               <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
               <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
               <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="ability" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -103,20 +505,60 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="stat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScTools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScTools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScTools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ScAdmin/web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ScAdmin/web" />
+      <recent name="$PROJECT_DIR$/ScAdmin/web/lib" />
+      <recent name="$PROJECT_DIR$/ScAdmin/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,7 +572,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.10">
+    <configuration name="CalcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.gues.ScDemo.admin.servlet.CalcTest" />
+      <module name="ScAdmin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.gues.ScDemo.admin.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -173,6 +626,7 @@
       <listeners />
     </configuration>
     <configuration name="Tomcat 9.0.10" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ScAdmin:war exploded">
@@ -331,6 +785,15 @@
         <option name="LOCAL" value="false" />
       </RunnerSettings>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 9.0.10" />
+      <item itemvalue="Application.CalcTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CalcTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -344,6 +807,22 @@
       <updated>1537604884916</updated>
       <workItem from="1537604886564" duration="882000" />
       <workItem from="1537605778084" duration="929000" />
+      <workItem from="1537607401315" duration="1353000" />
+      <workItem from="1537879626839" duration="3099000" />
+      <workItem from="1537922019792" duration="1081000" />
+      <workItem from="1537930631441" duration="345000" />
+      <workItem from="1537977131470" duration="1265000" />
+      <workItem from="1538038791816" duration="5000" />
+      <workItem from="1538040557308" duration="3135000" />
+      <workItem from="1539084586561" duration="2110000" />
+      <workItem from="1539844166953" duration="1519000" />
+      <workItem from="1540478459079" duration="427000" />
+      <workItem from="1540819610131" duration="2902000" />
+      <workItem from="1540870599095" duration="463000" />
+      <workItem from="1540892093553" duration="5000" />
+      <workItem from="1540901928510" duration="1827000" />
+      <workItem from="1540945815855" duration="4496000" />
+      <workItem from="1540981973770" duration="13185000" />
     </task>
     <task id="LOCAL-00001" summary="gitTest!">
       <created>1537606128593</created>
@@ -352,18 +831,26 @@
       <option name="project" value="LOCAL" />
       <updated>1537606128593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="删掉了gitTest.jsp">
+      <created>1537607451805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537607451805</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2221000" />
+    <option name="totallyTimeSpent" value="39438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.32976446" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32976446" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.254818" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32976446" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -372,28 +859,26 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" visible="true" weight="0.379015" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32976446" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32976446" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32976446" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947917" weight="0.32976446" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32976446" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20989583" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32976446" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,20 +899,356 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitTest!" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitTest!" />
+    <MESSAGE value="删掉了gitTest.jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="删掉了gitTest.jsp" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/gitTest.jsp">
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/work/WorkAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="560">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/gitTest.jsp">
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/CalcTest.java" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/Calc.java" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/CarShopServlet.java" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/Good.java" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/ShopCar.java" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/shopcar.jsp" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="60" column="51" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/gitTest.jsp" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/gitTest.jsp" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/news/newsAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="117" column="15" lean-forward="true" selection-start-line="103" selection-start-column="12" selection-end-line="117" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/work/commentAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1169">
+          <caret line="16" column="273" lean-forward="true" selection-start-line="16" selection-start-column="260" selection-end-line="16" selection-end-column="273" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/demand/demandList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1371">
+          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/Good.java" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/ShopCar.java" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/CarShopServlet.java" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/shopcar.jsp" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/CalcTest.java" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/Calc.java" />
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/WcfAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/news/NewsAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="100" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/AllowAnonymous.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/manage/manageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="255" selection-start-line="3" selection-start-column="244" selection-end-line="3" selection-end-column="255" />
+          <folding>
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/error.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/functions.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/AdminUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="417" column="53" lean-forward="true" selection-start-line="417" selection-start-column="53" selection-end-line="417" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/demand/DemandAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/ability/AbilityAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/lib/Particleground.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/css/H-ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="269" column="19" lean-forward="true" selection-start-line="269" selection-start-column="19" selection-end-line="269" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/RegionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StatServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginPeo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#1991#1992#0" expanded="true" />
+            <element signature="e#2021#2022#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2085#2086#0" expanded="true" />
+            <element signature="e#2115#2116#0" expanded="true" />
+            <element signature="e#2149#2150#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2225#2226#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="139" column="60" lean-forward="true" selection-start-line="139" selection-start-column="60" selection-end-line="139" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/stat/proStat.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/WorkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/work/WorkAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

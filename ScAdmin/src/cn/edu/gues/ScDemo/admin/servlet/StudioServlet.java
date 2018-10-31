@@ -35,8 +35,12 @@ import java.net.URL;
 
 @WebServlet("/Studio")
 public class StudioServlet extends BaseServlet {
+    private String regionId;
+    private String pid;
     public void departmentList(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        DepartmentResult departments = DepartmentAPI.TbUnitByqid(5224);
+        regionId = AdminUtils.getAdminUserRegionId(req);
+        pid = AdminUtils.getAdminUserId(req);
+        DepartmentResult departments = DepartmentAPI.TbUnitByqid(regionId);
 
         DepartmentD[] Departments = departments.getD().toArray(new DepartmentD[departments.getD().size()]);
 
@@ -51,9 +55,12 @@ public class StudioServlet extends BaseServlet {
     }
 
     public void departmentAddSubmit(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        regionId = AdminUtils.getAdminUserRegionId(req);
+        pid = AdminUtils.getAdminUserId(req);
+
         String uname = req.getParameter("UNAME");
         DepartmentAPI departmentAPI = new DepartmentAPI();
-        AjaxResult ajaxResult = departmentAPI.AddTbunit(uname, null, "5224", "");
+        AjaxResult ajaxResult = departmentAPI.AddTbunit(uname, null, regionId, pid);
 
         writeJson(resp, ajaxResult);
     }
@@ -193,6 +200,7 @@ public class StudioServlet extends BaseServlet {
 
     //http://61.159.180.166:8036/Service2.svc/TbPhmacByfid?fid=5224&presult=0&pageNo=1&pageSize=10
     public void phmacPageData(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        pid = AdminUtils.getAdminUserId(req);
         String regionId = String.valueOf(AdminUtils.getAdminUserRegionId(req));
         String presult = req.getParameter("presult");
         int pageNo = Integer.parseInt(req.getParameter("pageIndex"));
@@ -204,16 +212,6 @@ public class StudioServlet extends BaseServlet {
             totalCount = phmacResult.getD().get(0).getSumTotl();
         }
 
-        /********************************************/
-        String auditId = "13639108097";
-        /*
-
-        要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改
-        要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改
-        要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改
-
-         */
-
         req.setAttribute("regionId", AdminUtils.getAdminUserRegionId(req));
         req.setAttribute("phmacs", phmacs);
         req.setAttribute("presult", presult);
@@ -221,7 +219,7 @@ public class StudioServlet extends BaseServlet {
         req.setAttribute("pageNo", pageNo);
         req.setAttribute("totalCount", totalCount);
 
-        req.setAttribute("auditId", auditId);
+        req.setAttribute("auditId", pid);
 
         req.getRequestDispatcher("/WEB-INF/phmac/phmacList.jsp").forward(req, resp);
     }
@@ -336,16 +334,17 @@ public class StudioServlet extends BaseServlet {
     public void deprocessAddSubmit(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //String pid = AdminUtils.getAdminUserId(req).toString();
         //String ftid = AdminUtils.getAdminUserRegionId(req).toString();
-        //要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改要改
+        regionId = AdminUtils.getAdminUserRegionId(req);
+        pid = AdminUtils.getAdminUserId(req);
 
-        String pid = "13639108097";
-        String ftid = "5224";
+
+
 
         String txid = req.getParameter("txid");
         String presult = req.getParameter("presult");
         String status = req.getParameter("status");
 
-        AjaxResult result = DemandAPI.AddTbDeprocess(txid, pid, ftid, presult, status);
+        AjaxResult result = DemandAPI.AddTbDeprocess(txid, pid, regionId, presult, status);
         writeJson(resp, result);
     }
 
@@ -360,7 +359,9 @@ public class StudioServlet extends BaseServlet {
 
     public void newsList(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //String pid = AdminUtils.getAdminUserId(req).toString();
-        String pid = "13639108097";
+
+        pid = AdminUtils.getAdminUserId(req);
+
         String readType = req.getParameter("readType");
         int pageNo = Integer.parseInt(req.getParameter("pageIndex"));
 
@@ -408,6 +409,8 @@ public class StudioServlet extends BaseServlet {
     }
 
     public void newsAddSubmit(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        regionId = AdminUtils.getAdminUserRegionId(req);
+        pid = AdminUtils.getAdminUserId(req);
         String ptype = req.getParameter("ptype");
 
         String region1 = req.getParameter("region1");
@@ -418,9 +421,9 @@ public class StudioServlet extends BaseServlet {
         String newscontent = req.getParameter("newscontent");
 
         //String sender = AdminUtils.getAdminUserId(req).toString();
-        String sender = "13639108097";
+        String sender = pid;
         String sendertel = AbilityAPI.QueryTbPeopleinfoById(sender).getD().getPTEL();
-        String regionId = "5224";
+
         if(region1.length() > regionId.length()){
             regionId = region1;
         }

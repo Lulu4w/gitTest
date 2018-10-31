@@ -18,13 +18,13 @@ public class WorkServlet extends BaseServlet {
     public void workList(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         int pageNo = Integer.parseInt(req.getParameter("pageIndex"));
-        String tel = "13639108097";
-        //String tel = AbilityAPI.QueryTbPeopleinfoById(AdminUtils.getAdminUserId(req).toString()).getD().getPTEL();
-        WorkListResult workListResult = WorkAPI.QueryTbWorkinfoComment(tel, pageNo, 5);
+
+        String tel = AbilityAPI.QueryTbPeopleinfoById(AdminUtils.getAdminUserId(req).toString()).getD().getPTEL();
+        WorkListResult workListResult = WorkAPI.QueryTbWorkinfoComment(tel, pageNo, 10);
         WorkListD[] workListDS = workListResult.getD().toArray(new WorkListD[workListResult.getD().size()]);
         CommentListResult[] comments = new CommentListResult[workListDS.length];
         int totalCount = 0;
-        if(workListResult.getD() != null){
+        if(workListResult != null){
             totalCount = workListDS[0].getTotolSum();
         }
         for(int i = 0; i < workListDS.length; i++){
@@ -45,10 +45,10 @@ public class WorkServlet extends BaseServlet {
         String reserver = req.getParameter("pid");
         String reservertel = req.getParameter("ptel");
         String workid = req.getParameter("workid");
-        String sender = "13639108097";
-        String sendertel = "13639108097";
-        //String sender = AdminUtils.getAdminUserId(req).toString();
-        //String sendertel = AbilityAPI.QueryTbPeopleinfoById(AdminUtils.getAdminUserId(req).toString()).getD().getPTEL();
+
+        String sender = AdminUtils.getAdminUserId(req).toString();
+        String sendertel = AbilityAPI.QueryTbPeopleinfoById(AdminUtils.getAdminUserId(req).toString()).getD().getPTEL();
+
         AjaxResult result = WorkAPI.AddFabulou(workid,sender,sendertel,reserver,reservertel);
         writeJson(resp, result);
     }
@@ -77,8 +77,8 @@ public class WorkServlet extends BaseServlet {
         String workid = req.getParameter("workid");
         req.setAttribute("workid", workid);
         String name = req.getParameter("name");
-        //AbilityAPI.QueryTbPeopleShortByNameOrTel(AdminUtils.getAdminUserRegionId(req).toString(), name, 1, 1);
-        AbilityResult result = AbilityAPI.QueryTbPeopleShortByNameOrTel("5224", name, 1, 1);
+        AbilityResult result = AbilityAPI.QueryTbPeopleShortByNameOrTel(AdminUtils.getAdminUserRegionId(req).toString(), name, 1, 1);
+
 
         String reserver = result.getD().get(0).getPID();
         req.setAttribute("reserver", reserver);
@@ -95,10 +95,10 @@ public class WorkServlet extends BaseServlet {
         String reserver = req.getParameter("reserver");
         String reservertel = req.getParameter("reservertel");
         String remark = req.getParameter("remark");
-        //String sender = AdminUtils.getAdminUserId(req).toString();
-        String sender = "13639108097";
-        //String sendertel = AbilityAPI.QueryTbPeopleinfoById(AdminUtils.getAdminUserId(req).toString()).getD().getPTEL();
-        String sendertel = "13639108097";
+        String sender = AdminUtils.getAdminUserId(req).toString();
+
+        String sendertel = AbilityAPI.QueryTbPeopleinfoById(AdminUtils.getAdminUserId(req).toString()).getD().getPTEL();
+
         String content = req.getParameter("content");
 
         AjaxResult result = WorkAPI.AddComment(workid, sender, sendertel, reserver,reservertel,content, remark);

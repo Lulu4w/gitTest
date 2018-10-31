@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.net.URL;
 
 public class RegionAPI {
-    public static RegionD QueryRegionDictById(int id){
+    public static RegionD QueryRegionDictById(String id){
         try {
             String json = IOUtils.toString(new URL("http://61.159.180.166:8036/Service2.svc/QueryRegionDictById?id="+id), "UTF-8");
             Gson gson = CommonUtils.createGson();

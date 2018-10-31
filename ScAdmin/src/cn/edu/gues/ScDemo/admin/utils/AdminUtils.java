@@ -16,7 +16,7 @@ public class AdminUtils {
 		req.getRequestDispatcher("/WEB-INF/error.jsp").forward(req, resp);
 	}
 	
-	public static void setAdminUserId(HttpServletRequest req,int adminUserId)
+	public static void setAdminUserId(HttpServletRequest req,String adminUserId)
 	{
 		req.getSession().setAttribute("AdminUserId", adminUserId);
 	}
@@ -26,20 +26,20 @@ public class AdminUtils {
 	 * @param req
 	 * @return
 	 */
-	public static Integer getAdminUserId(HttpServletRequest req)
+	public static String getAdminUserId(HttpServletRequest req)
 	{
-		Integer id = (Integer) req.getSession().getAttribute("AdminUserId");
+		String id = (String) req.getSession().getAttribute("AdminUserId");
 		return id;
 	}
 
-	public static void setAdminUserRegionId(HttpServletRequest req,int regionId)
+	public static void setAdminUserRegionId(HttpServletRequest req,String regionId)
 	{
 		req.getSession().setAttribute("regionId", regionId);
 	}
 
-	public static Integer getAdminUserRegionId(HttpServletRequest req)
+	public static String getAdminUserRegionId(HttpServletRequest req)
 	{
-		Integer id = (Integer) req.getSession().getAttribute("regionId");
+		String id =  (String)req.getSession().getAttribute("regionId");
 		return id;
 	}
 
