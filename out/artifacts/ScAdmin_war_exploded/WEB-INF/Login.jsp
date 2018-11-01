@@ -81,7 +81,7 @@ $(document).ready(function() {
 
 <dl class="admin_login">
  <dt>
-  <strong>节水数字平台数据填报系统</strong>
+  <strong>人才管理系统</strong>
   <em>Management System</em>
  </dt>
  <dd class="user_icon">
