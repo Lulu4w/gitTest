@@ -27,7 +27,7 @@ public class IndexServlet extends BaseServlet {
     public void loginSubmit(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String phoneNum = req.getParameter("phoneNum");
         String password = req.getParameter("password");
-        String verifyCode = req.getParameter("verifyCode");
+        //String verifyCode = req.getParameter("verifyCode");
 
         if(StringUtils.isEmpty(phoneNum)){
             writeJson(resp, new AjaxResult("error", "手机号必填"));
@@ -37,16 +37,16 @@ public class IndexServlet extends BaseServlet {
             writeJson(resp, new AjaxResult("error", "密码必填"));
             return;
         }
-        if(StringUtils.isEmpty(verifyCode)){
+       /* if(StringUtils.isEmpty(verifyCode)){
             writeJson(resp, new AjaxResult("error", "验证码必填"));
             return;
-        }
+        }*/
 
-        String codeInSession = (String)req.getSession().getAttribute("verifyCode");
+        /*String codeInSession = (String)req.getSession().getAttribute("verifyCode");
         if(!verifyCode.equalsIgnoreCase(codeInSession)){
             writeJson(resp, new AjaxResult("error", "verifyCode Error"));
             return;
-        }
+        }*/
 
         LoginResult loginResult = LoginAPI.Loadleader(phoneNum, password);
 
