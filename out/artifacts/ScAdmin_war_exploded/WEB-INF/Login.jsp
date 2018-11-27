@@ -30,10 +30,10 @@ img{
 
 <script type="text/javascript">
 	$(function(){
-		$("#imgVerifyCode").click();
-		$("#imgVerifyCode,#kanbuq").click(function(){
+		/*$("#imgVerifyCode").click();*/
+		/*$("#imgVerifyCode,#kanbuq").click(function(){
 			$("#imgVerifyCode").attr("src","<%=ctxPath%>/Index?action=verifyCode&ts="+Math.random());
-		});
+		});*/
 		
 		$("#btnLogin").click(function(){
 			var data = $("#formLogin").serializeArray();
@@ -91,14 +91,14 @@ $(document).ready(function() {
   <input type="password" name="password" placeholder="密码" value="" class="login_txtbx"/>
  </dd>
 
- <dd class="val_icon">
+ <%--<dd class="val_icon">
   <div class="checkcode">
     <input type="text" name="verifyCode" id="J_codetext" placeholder="验证码" maxlength="4" class="login_txtbx">
     <img src="<%=ctxPath%>/Index?action=verifyCode" id="imgVerifyCode">
 
   </div>
   <input type="button" value="更换二维码" class="ver_btn" id="kanbuq" onClick="validate();">
- </dd>
+ </dd>--%>
 
  <dd>
   <input type="button" value="立即登陆" id="btnLogin" class="submit_btn" />

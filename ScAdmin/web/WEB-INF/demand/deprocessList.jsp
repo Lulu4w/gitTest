@@ -51,7 +51,16 @@
                 <tr class="text-c">
 
                     <td>${dep.GDATE}</td>
-                    <td>${dep.PRESULT}</td>
+
+                    <td>
+                        <c:if test="${dep.STATUS eq '0'}">待处理</c:if>
+                        <c:if test="${dep.STATUS eq '1'}">正在处理</c:if>
+                        <c:if test="${dep.STATUS eq '2'}">移交上级</c:if>
+                        <c:if test="${dep.STATUS eq '3'}">审核未通过</c:if>
+                        <c:if test="${dep.STATUS eq '4'}">已处理完成</c:if>
+                    </td>
+                    <%--<td>${dep.PRESULT}</td>--%>
+
                     <td>${pNames[status.index]}</td>
                     <td>${pPhones[status.index]}</td>
                     <td>${pUnits[status.index]}</td>

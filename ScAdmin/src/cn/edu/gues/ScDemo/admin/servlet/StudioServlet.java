@@ -120,12 +120,17 @@ public class StudioServlet extends BaseServlet {
 
         AbilityD[] abilities = abilityResult.getD().toArray(new AbilityD[abilityResult.getD().size()]);
 
-        int totalCount = abilityResult.getD().get(0).getSumTotl();
+        int totalCount = 0;
         String phid = "";
-        for(int i = 0; i < abilities.length-1; i++){
-            phid += abilities[i].getPID()+",";
+        if(abilityResult!= null && abilityResult.getD()!=null && abilityResult.getD().size()!= 0){
+            totalCount = abilityResult.getD().get(0).getSumTotl();
+            for(int i = 0; i < abilities.length-1; i++){
+                phid += abilities[i].getPID()+",";
+            }
+            phid += abilities[abilities.length-1].getPID();
         }
-        phid += abilities[abilities.length-1].getPID();
+
+
 
         req.setAttribute("phid", phid);
         req.setAttribute("regionId", AdminUtils.getAdminUserRegionId(req));

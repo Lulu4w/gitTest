@@ -42,7 +42,7 @@
                 <td>${dep.UNO}</td>
                 <td>${dep.UNAME}</td>
                 <td class="td-manage">
-                    <a title="编辑" href="javascript:;" onclick="department_edit('单位编辑','<%=ctxPath%>/Studio?action=departmentEdit&uname=${dep.UNAME}','800','500')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a>
+                    <a title="编辑" href="javascript:;" onclick="department_edit('单位编辑','<%=ctxPath%>/Studio?action=departmentEdit&uname=${dep.UNAME}','1000','600')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a>
                     <a title="删除" href="javascript:;" onclick="department_del(this,'${dep.UNO}')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a>
                 </td>
             </tr>
@@ -88,7 +88,7 @@
     }
 
     /*单位-编辑*/
-    function department_edit(title,url,id,w,h){
+    function department_edit(title,url,w,h){
         layer_show(title,url,w,h);
     }
 </script>

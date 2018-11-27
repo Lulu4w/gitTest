@@ -20,7 +20,7 @@
         <input type="hidden" name="oldUname" value="${uname}"/>
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>单位(部门)名称：</label>
-            <div class="formControls col-xs-8 col-sm-9">
+            <div class="formControls col-xs-5 col-sm-5">
                 <input type="text" class="input-text" value="${uname}" placeholder="" id="UNAME" name="UNAME">
             </div>
         </div>

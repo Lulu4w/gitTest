@@ -7,146 +7,135 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="242d47ab-aee4-47b2-9790-b0f54d0419d5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/demand/deprocessList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/demand/deprocessList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScAdmin/web/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war/ScAdmin_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war/ScAdmin_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/Department/DepartmentEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/Department/DepartmentEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/Department/DepartmentList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/Department/DepartmentList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/demand/deprocessList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/demand/deprocessList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/welcome.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IndexServlet.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPeo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginPeo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
-                <element signature="e#1087#1088#0" expanded="true" />
-                <element signature="e#1121#1122#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1239#1240#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
-                <element signature="e#1383#1384#0" expanded="true" />
-                <element signature="e#1417#1418#0" expanded="true" />
-                <element signature="e#1448#1449#0" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
-                <element signature="e#1515#1516#0" expanded="true" />
-                <element signature="e#1547#1548#0" expanded="true" />
-                <element signature="e#1577#1578#0" expanded="true" />
-                <element signature="e#1603#1604#0" expanded="true" />
-                <element signature="e#1641#1642#0" expanded="true" />
-                <element signature="e#1671#1672#0" expanded="true" />
-                <element signature="e#1706#1707#0" expanded="true" />
-                <element signature="e#1737#1738#0" expanded="true" />
-                <element signature="e#1785#1786#0" expanded="true" />
-                <element signature="e#1825#1826#0" expanded="true" />
-                <element signature="e#1862#1863#0" expanded="true" />
-                <element signature="e#1895#1896#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
-                <element signature="e#1991#1992#0" expanded="true" />
-                <element signature="e#2021#2022#0" expanded="true" />
-                <element signature="e#2047#2048#0" expanded="true" />
-                <element signature="e#2085#2086#0" expanded="true" />
-                <element signature="e#2115#2116#0" expanded="true" />
-                <element signature="e#2149#2150#0" expanded="true" />
-                <element signature="e#2179#2180#0" expanded="true" />
-                <element signature="e#2225#2226#0" expanded="true" />
-                <element signature="e#2263#2264#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorkServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/WorkServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkAPI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/work/WorkAPI.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/manage/manageList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="180">
+              <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllowAnonymous.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/AllowAnonymous.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2780">
-              <caret line="139" column="60" selection-start-line="139" selection-start-column="60" selection-end-line="139" selection-end-column="60" />
+            <state relative-caret-position="340">
+              <caret line="138" column="33" lean-forward="true" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proStat.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/stat/proStat.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.html" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScAdmin/web/welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="70" column="67" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentEdit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="44" column="152" selection-start-line="44" selection-start-column="152" selection-end-line="44" selection-end-column="152" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/ability/AbilityAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/demand/DeprocessD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/demand/demandList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -168,6 +157,7 @@
       <find>GDATE</find>
       <find>&quot;5224&quot;</find>
       <find>welcom</find>
+      <find>departmentEdit</find>
     </findStrings>
     <replaceStrings>
       <replace>regionId</replace>
@@ -197,23 +187,21 @@
         <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/region/RegionAPI.java" />
         <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StatServlet.java" />
         <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.java" />
-        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java" />
         <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginPeo.java" />
         <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/BaseServlet.java" />
         <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/welcome.html" />
-        <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp" />
         <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/WorkServlet.java" />
         <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/work/WorkAPI.java" />
         <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java" />
         <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp" />
+        <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/demand/deprocessList.jsp" />
+        <option value="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java" />
+        <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentList.jsp" />
+        <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentEdit.jsp" />
+        <option value="$PROJECT_DIR$/ScAdmin/web/welcome.html" />
+        <option value="$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -230,12 +218,15 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UtF-8" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="92" />
@@ -251,73 +242,85 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScDemo4git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4git" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScDemo4git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4git" type="462c0819:PsiDirectoryNode" />
               <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScDemo4git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4git" type="462c0819:PsiDirectoryNode" />
               <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScDemo4git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4git" type="462c0819:PsiDirectoryNode" />
               <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScDemo4git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4git" type="462c0819:PsiDirectoryNode" />
               <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScDemo4git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4git" type="462c0819:PsiDirectoryNode" />
               <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ScDemo4Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScDemo4Git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScDemo4git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4git" type="462c0819:PsiDirectoryNode" />
               <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScDemo4git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScDemo4git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScDemo4git" type="462c0819:PsiDirectoryNode" />
+              <item name="ScAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543285720135" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -353,47 +356,29 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Tomcat 9.0.10" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
@@ -408,11 +393,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_ScDemo4Git" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="41215" />
       </RunnerSettings>
@@ -461,7 +446,8 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="ScAdmin:war exploded" />
         </option>
@@ -473,11 +459,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="_ScDemo4Git" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="41215" />
       </RunnerSettings>
@@ -526,6 +512,9 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
       <option name="LOCAL" value="false" />
@@ -548,16 +537,19 @@
           <host-id />
         </data>
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="46707" />
         <option name="LOCAL" value="false" />
       </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 9.0.10" />
       <item itemvalue="Application.CalcTest" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.10" />
     </list>
     <recent_temporary>
       <list>
@@ -595,6 +587,12 @@
       <workItem from="1540981973770" duration="15172000" />
       <workItem from="1541080490022" duration="561000" />
       <workItem from="1541126496819" duration="253000" />
+      <workItem from="1542682155484" duration="46000" />
+      <workItem from="1542685928447" duration="243000" />
+      <workItem from="1542690359470" duration="859000" />
+      <workItem from="1542702963760" duration="7000" />
+      <workItem from="1543253044185" duration="119000" />
+      <workItem from="1543281574811" duration="4164000" />
     </task>
     <task id="LOCAL-00001" summary="gitTest!">
       <created>1537606128593</created>
@@ -635,43 +633,45 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42239000" />
+    <option name="totallyTimeSpent" value="47677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.254818" />
-      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32976446" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22566845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" weight="0.379015" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32976446" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947917" weight="0.32976446" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23019272" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32976446" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20989583" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32976446" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2683461" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" weight="0.24863088" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32976446" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005208" side_tool="true" weight="0.254818" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49947917" weight="0.32976446" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32976446" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32976446" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32994652" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32994652" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,9 +687,6 @@
       </list>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitTest!" />
     <MESSAGE value="删掉了gitTest.jsp" />
@@ -697,34 +694,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="增加了登录功能" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/work/WorkAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/CalcTest.java" />
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/Calc.java" />
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/CarShopServlet.java" />
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/Good.java" />
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/ShopCar.java" />
-    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/shopcar.jsp" />
-    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="60" column="51" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/BaseServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/gitTest.jsp" />
     <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/gitTest.jsp" />
     <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/news/newsAdd.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -736,20 +705,6 @@
     <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/work/commentAdd.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-222" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1169">
-          <caret line="16" column="273" lean-forward="true" selection-start-line="16" selection-start-column="260" selection-end-line="16" selection-end-column="273" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/demand/demandList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1371">
-          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/Good.java" />
@@ -829,27 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="417" column="53" lean-forward="true" selection-start-line="417" selection-start-column="53" selection-end-line="417" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/demand/DemandAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/ability/AbilityAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ScAdmin/web/lib/Particleground.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -864,9 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,87 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginPeo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1547#1548#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#1991#1992#0" expanded="true" />
-            <element signature="e#2021#2022#0" expanded="true" />
-            <element signature="e#2047#2048#0" expanded="true" />
-            <element signature="e#2085#2086#0" expanded="true" />
-            <element signature="e#2115#2116#0" expanded="true" />
-            <element signature="e#2149#2150#0" expanded="true" />
-            <element signature="e#2179#2180#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#2263#2264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/web/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/stat/proStat.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/WorkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -969,6 +819,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="269" column="19" lean-forward="true" selection-start-line="269" selection-start-column="19" selection-end-line="269" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/news/NewsAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/index/LoginPeo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/WorkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -986,31 +857,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp">
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/stat/proStat.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2780">
-          <caret line="139" column="60" selection-start-line="139" selection-start-column="60" selection-end-line="139" selection-end-column="60" />
+        <state relative-caret-position="803">
+          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/news/NewsAPI.java">
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/demand/DemandAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/demand/deprocessList.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <caret line="58" column="70" lean-forward="true" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/demand/DeprocessD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/demand/demandList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/ability/AbilityAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="44" column="152" selection-start-line="44" selection-start-column="152" selection-end-line="44" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="70" column="67" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+        <state relative-caret-position="220">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp">
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/manage/manageList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state relative-caret-position="180">
+          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="138" column="33" lean-forward="true" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1020,6 +957,17 @@
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
