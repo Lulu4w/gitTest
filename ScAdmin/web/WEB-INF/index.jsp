@@ -15,7 +15,7 @@
 <body>
 <header class="navbar-wrapper">
     <div class="navbar navbar-fixed-top">
-        <div class="container-fluid cl"> <a class="logo navbar-logo f-l mr-10 hidden-xs" href="/aboutHui.shtml">    admin</a> <a class="logo navbar-logo-m f-l mr-10 visible-xs" href="/aboutHui.shtml">admin</a>
+        <div class="container-fluid cl"> <a class="logo navbar-logo f-l mr-10 hidden-xs" href="<%=ctxPath%>/Index?action=index">    admin</a> <a class="logo navbar-logo-m f-l mr-10 visible-xs" href="<%=ctxPath%>/Index?action=index">admin</a>
             <span class="logo navbar-slogan f-l mr-10 hidden-xs"></span>
             <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
 
@@ -155,19 +155,7 @@
 <script type="text/javascript" src="lib/jquery.contextmenu/jquery.contextmenu.r2.js"></script>
 <script type="text/javascript">
     $(function(){
-        /*$("#min_title_list li").contextMenu('Huiadminmenu', {
-            bindings: {
-                'closethis': function(t) {
-                    console.log(t);
-                    if(t.find("i")){
-                        t.find("i").trigger("click");
-                    }
-                },
-                'closeall': function(t) {
-                    alert('Trigger was '+t.id+'\nAction was Email');
-                },
-            }
-        });*/
+
     });
     /*个人信息*/
     function myselfinfo(){
