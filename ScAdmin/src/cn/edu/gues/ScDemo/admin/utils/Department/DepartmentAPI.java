@@ -40,10 +40,12 @@ public class DepartmentAPI {
 
     public static DepartmentEditResult TbUnitByName(String uname){
         try {
-            String json = IOUtils.toString(new URL("http://61.159.180.166:8036/Service2.svc/TbUnitByName?uname="+ uname), "UTF-8");
-            Gson gson = CommonUtils.createGson();
+            String json = IOUtils.toString(new URL("http://61.159.180.166:8036/Service2.svc/TbUnitByName?uname="+ CommonUtils.urlEncodeUTF8(uname)), "UTF-8");
+
+            Gson gson = CommonUtils.createGsonNotHH();
             java.lang.reflect.Type type = new TypeToken<DepartmentEditResult>(){}.getType();
-            return gson.fromJson(json, type);
+            DepartmentEditResult temp =  gson.fromJson(json, type);
+            return temp;
 
         } catch (IOException e) {
             throw new RuntimeException(e);

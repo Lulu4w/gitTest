@@ -44,7 +44,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr class="text-c">r
+    <tr class="text-c">
         <td>省派</td>
         <td>科技副职</td>
         <td>${cityTotalD.skjfz}</td>

@@ -10,4 +10,11 @@ public class DepartmentEditResult {
     public void setD(DepartmentD d) {
         this.d = d;
     }
+
+    @Override
+    public String toString() {
+        return "DepartmentEditResult{" +
+                "d=" + d +
+                '}';
+    }
 }

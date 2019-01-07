@@ -85,10 +85,10 @@ $(document).ready(function() {
   <em>Management System</em>
  </dt>
  <dd class="user_icon">
-  <input type="text" name="phoneNum" placeholder="手机号" value="" class="login_txtbx"/>
+  <input type="text" name="phoneNum" placeholder="手机号" value="13639108097" class="login_txtbx"/>
  </dd>
  <dd class="pwd_icon">
-  <input type="password" name="password" placeholder="密码" value="" class="login_txtbx"/>
+  <input type="password" name="password" placeholder="密码" value="123456" class="login_txtbx"/>
  </dd>
 
  <%--<dd class="val_icon">

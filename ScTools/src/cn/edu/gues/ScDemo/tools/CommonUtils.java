@@ -133,6 +133,12 @@ public class CommonUtils {
 		Gson gson = new GsonBuilder().setDateFormat("yyyy/MM/dd HH:mm:ss").create();
 		return gson;
 	}
+
+	public static Gson createGsonNotHH()
+	{
+		Gson gson = new GsonBuilder().setDateFormat("yyyy/MM/dd").create();
+		return gson;
+	}
 	
 	public static long[] toLongArray(String[] strs)
 	{

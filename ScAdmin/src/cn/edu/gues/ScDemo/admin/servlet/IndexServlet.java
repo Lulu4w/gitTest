@@ -20,7 +20,7 @@ import java.io.IOException;
 public class IndexServlet extends BaseServlet {
     @AllowAnonymous
     public void login(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("WEB-INF/Login.jsp").forward(req, resp);
+        req.getRequestDispatcher("WEB-INF/loginlte.jsp").forward(req, resp);
     }
 
     @AllowAnonymous

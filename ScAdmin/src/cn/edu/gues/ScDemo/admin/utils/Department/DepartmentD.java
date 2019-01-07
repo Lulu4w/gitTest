@@ -66,4 +66,17 @@ public class DepartmentD {
     public void setUNO(String UNO) {
         this.UNO = UNO;
     }
+
+    @Override
+    public String toString() {
+        return "DepartmentD{" +
+                "__type='" + __type + '\'' +
+                ", FUNO='" + FUNO + '\'' +
+                ", GDATE=" + GDATE +
+                ", PID='" + PID + '\'' +
+                ", QUNO='" + QUNO + '\'' +
+                ", UNAME='" + UNAME + '\'' +
+                ", UNO='" + UNO + '\'' +
+                '}';
+    }
 }

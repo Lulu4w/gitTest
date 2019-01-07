@@ -47,7 +47,7 @@ public class StudioServlet extends BaseServlet {
         req.setAttribute("Departments", Departments);
         req.setAttribute("DepCount", departments.getD().size());
 
-        req.getRequestDispatcher("/WEB-INF/Department/DepartmentList.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/Department/DepartmentList2.jsp").forward(req, resp);
     }
 
     public void departmentAdd(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -58,7 +58,8 @@ public class StudioServlet extends BaseServlet {
         regionId = AdminUtils.getAdminUserRegionId(req);
         pid = AdminUtils.getAdminUserId(req);
 
-        String uname = req.getParameter("UNAME");
+        String uname = CommonUtils.urlEncodeUTF8(req.getParameter("UNAME"));
+
         DepartmentAPI departmentAPI = new DepartmentAPI();
         AjaxResult ajaxResult = departmentAPI.AddTbunit(uname, null, regionId, pid);
 
@@ -74,6 +75,7 @@ public class StudioServlet extends BaseServlet {
     public void departmentEditSubmit(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String uname = req.getParameter("oldUname");
         String newUname = req.getParameter("UNAME");
+        newUname = CommonUtils.urlEncodeUTF8(newUname);
 
         DepartmentEditResult department = DepartmentAPI.TbUnitByName(uname);
 
@@ -84,7 +86,9 @@ public class StudioServlet extends BaseServlet {
 
         AjaxResult ajaxResult = DepartmentAPI.UpdateTbunit(uno,newUname, funo,quno,pid);
 
+
         writeJson(resp, ajaxResult);
+
     }
 
     /**

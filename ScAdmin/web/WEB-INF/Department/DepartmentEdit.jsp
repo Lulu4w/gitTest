@@ -10,7 +10,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <%@include file="/WEB-INF/header.jsp" %>
+    <%@include file="/WEB-INF/headerLte.jsp" %>
     <title>修改单位</title>
 </head>
 <body>
@@ -18,7 +18,9 @@
     <form class="form form-horizontal" id="form-add">
         <input type="hidden" name="action" value="departmentEditSubmit"/>
         <input type="hidden" name="oldUname" value="${uname}"/>
-        <div class="row cl">
+
+
+        <%--<div class="row cl">
             <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>单位(部门)名称：</label>
             <div class="formControls col-xs-5 col-sm-5">
                 <input type="text" class="input-text" value="${uname}" placeholder="" id="UNAME" name="UNAME">
@@ -29,7 +31,24 @@
             <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
                 <input class="btn btn-primary radius" id="btnSave" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
             </div>
+        </div>--%>
+
+        <div class="col-md-6">
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="UNAME"><span class="c-red">*</span>单位(部门)名称：</label>
+                    <input type="text" class="form-control" value="${uname}" id="UNAME" name="UNAME" placeholder="输入单位名称">
+                </div>
+            </div>
+            <!-- /.box-body -->
+
+            <div class="box-footer">
+                <input type="button" id="btnSave" class="btn btn-primary" value="确定"/>
+            </div>
         </div>
+
+
+
     </form>
 </article>
 
@@ -65,4 +84,3 @@
 </script>
 </body>
 </html>
-
