@@ -6,48 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="242d47ab-aee4-47b2-9790-b0f54d0419d5" name="Default" comment="修改了一点页面小毛病">
-      <change afterPath="$PROJECT_DIR$/ScAdmin/web/AdminLTE-2.4.5/bower_components/myLayJS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/ControlSidebar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentList2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/headerLte.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/loginlte.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/sidebar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="242d47ab-aee4-47b2-9790-b0f54d0419d5" name="Default" comment="添加了loginlte.jsp&#10;添加了DepartmentList2.jsp&#10;修改了Department相关">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentD.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentEditResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentEditResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Department/DepartmentEdit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentD.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentEditResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentEditResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/tools/CommonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScAdmin/web/WEB-INF/classes/cn/edu/gues/ScDemo/tools/CommonUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScTools/src/cn/edu/gues/ScDemo/tools/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScTools/src/cn/edu/gues/ScDemo/tools/CommonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war/ScAdmin_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war/ScAdmin_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/Department/DepartmentAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/Department/DepartmentAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/Department/DepartmentEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/Department/DepartmentEdit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/servlet/StudioServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentEditResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/admin/utils/Department/DepartmentEditResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/tools/CommonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/classes/cn/edu/gues/ScDemo/tools/CommonUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/stat/scienceStat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ScAdmin_war_exploded/WEB-INF/stat/scienceStat.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -92,26 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/loginlte.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-              <folding>
-                <element signature="e#670#676#0#HTML" expanded="true" />
-                <element signature="e#676#682#0#HTML" expanded="true" />
-                <element signature="e#683#689#0#HTML" expanded="true" />
-                <element signature="e#671#677#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="78" column="54" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="54" />
+            <state relative-caret-position="326">
+              <caret line="79" selection-start-line="79" selection-end-line="79" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -352,7 +297,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546832954372" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546833007067" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -654,7 +599,7 @@
       <workItem from="1544620850109" duration="1172000" />
       <workItem from="1546049648513" duration="1829000" />
       <workItem from="1546520913177" duration="12668000" />
-      <workItem from="1546826893094" duration="5638000" />
+      <workItem from="1546826893094" duration="5936000" />
     </task>
     <task id="LOCAL-00001" summary="gitTest!">
       <created>1537606128593</created>
@@ -698,11 +643,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546052292681</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加了loginlte.jsp&#10;添加了DepartmentList2.jsp&#10;修改了Department相关">
+      <created>1546833077881</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546833077882</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69098000" />
+    <option name="totallyTimeSpent" value="69396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -762,7 +714,8 @@
     <MESSAGE value="删掉了gitTest.jsp" />
     <MESSAGE value="增加了登录功能" />
     <MESSAGE value="修改了一点页面小毛病" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了一点页面小毛病" />
+    <MESSAGE value="添加了loginlte.jsp&#10;添加了DepartmentList2.jsp&#10;修改了Department相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了loginlte.jsp&#10;添加了DepartmentList2.jsp&#10;修改了Department相关" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/functions.tld">
@@ -1106,13 +1059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/headerLte.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1129,21 +1075,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/Login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="78" column="54" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="54" />
+        <state relative-caret-position="326">
+          <caret line="79" selection-start-line="79" selection-end-line="79" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ScAdmin/web/WEB-INF/loginlte.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        <state relative-caret-position="461">
+          <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
           <folding>
             <element signature="e#670#676#0#HTML" expanded="true" />
             <element signature="e#676#682#0#HTML" expanded="true" />
             <element signature="e#683#689#0#HTML" expanded="true" />
             <element signature="e#671#677#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScAdmin/src/cn/edu/gues/ScDemo/admin/servlet/IndexServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
         </state>
       </provider>
     </entry>
