@@ -2,13 +2,13 @@ package cn.edu.gues.ScDemo.admin.utils.stat;
 
 public class TrainD {
     private String __type;
-    private String Train0;
-    private String Train1;
-    private String Train2;
-    private String Train3;
-    private String Train4;
-    private String Train5;
-    private String Train6;
+    private int Train0;
+    private int Train1;
+    private int Train2;
+    private int Train3;
+    private int Train4;
+    private int Train5;
+    private int Train6;
     private String regionid;
     private String regionname;
     public void set__type(String __type) {
@@ -18,53 +18,60 @@ public class TrainD {
         return __type;
     }
 
-    public void setTrain0(String Train0) {
-        this.Train0 = Train0;
-    }
-    public String getTrain0() {
+    public int getTrain0() {
         return Train0;
     }
 
-    public void setTrain1(String Train1) {
-        this.Train1 = Train1;
+    public void setTrain0(int train0) {
+        Train0 = train0;
     }
-    public String getTrain1() {
+
+    public int getTrain1() {
         return Train1;
     }
 
-    public void setTrain2(String Train2) {
-        this.Train2 = Train2;
+    public void setTrain1(int train1) {
+        Train1 = train1;
     }
-    public String getTrain2() {
+
+    public int getTrain2() {
         return Train2;
     }
 
-    public void setTrain3(String Train3) {
-        this.Train3 = Train3;
+    public void setTrain2(int train2) {
+        Train2 = train2;
     }
-    public String getTrain3() {
+
+    public int getTrain3() {
         return Train3;
     }
 
-    public void setTrain4(String Train4) {
-        this.Train4 = Train4;
+    public void setTrain3(int train3) {
+        Train3 = train3;
     }
-    public String getTrain4() {
+
+    public int getTrain4() {
         return Train4;
     }
 
-    public void setTrain5(String Train5) {
-        this.Train5 = Train5;
+    public void setTrain4(int train4) {
+        Train4 = train4;
     }
-    public String getTrain5() {
+
+    public int getTrain5() {
         return Train5;
     }
 
-    public void setTrain6(String Train6) {
-        this.Train6 = Train6;
+    public void setTrain5(int train5) {
+        Train5 = train5;
     }
-    public String getTrain6() {
+
+    public int getTrain6() {
         return Train6;
+    }
+
+    public void setTrain6(int train6) {
+        Train6 = train6;
     }
 
     public void setRegionid(String regionid) {

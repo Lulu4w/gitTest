@@ -24,8 +24,8 @@
         <a href="javascript:;" onClick="searchAbility()" class="btn btn-success radius"><i class="Hui-iconfont">&#xe665;</i> 搜索</a>
     </div>
 
-    <div class="cl pd-5 bg-1 bk-gray mt-20">
-        <span class="l">
+    <div class="col-xs-1">
+        <span class="col-xs-1">
             <c:if test="${audit eq '0'}">
                 <a href="javascript:;"  onClick="member_shenheOkAll(this)"  class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量审核</a>
             </c:if>

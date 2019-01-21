@@ -12,7 +12,7 @@
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
         <!-- Sidebar user panel -->
-        <div class="user-panel">
+        <%--<div class="user-panel">
             <div class="pull-left image">
                 <img src="<%=ctxPath%>/AdminLTE-2.4.5/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
             </div>
@@ -20,18 +20,8 @@
                 <p>Alexander Pierce</p>
                 <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
-        </div>
-        <!-- search form -->
-        <form action="#" method="get" class="sidebar-form">
-            <div class="input-group">
-                <input type="text" name="q" class="form-control" placeholder="Search...">
-                <span class="input-group-btn">
-                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-                </button>
-              </span>
-            </div>
-        </form>
-        <!-- /.search form -->
+        </div>--%>
+
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu" data-widget="tree">
             <li class="header">工作台</li>
@@ -54,7 +44,7 @@
             </li>-->
 
             <li>
-                <a href="../widgets.html">
+                <a href="<%=ctxPath %>/Studio?action=departmentList">
                     <i class="fa fa-building-o text-light-blue"></i> <span>单位部门管理</span>
                     <!--<span class="pull-right-container">
                       <small class="label pull-right bg-green">new</small>
@@ -63,7 +53,7 @@
             </li>
 
             <li>
-                <a href="../widgets.html">
+                <a href="<%=ctxPath %>/Studio?action=abilityPageData&regionId=${regionId}&audit=0&pageIndex=1&pageSize=15">
                     <i class="fa fa-black-tie text-red"></i> <span>人才管理</span>
                     <!--<span class="pull-right-container">
                       <small class="label pull-right bg-green">new</small>
@@ -72,7 +62,7 @@
             </li>
 
             <li>
-                <a href="../widgets.html">
+                <a href="<%=ctxPath %>/Studio?action=demandList&tid=01">
                     <i class="fa fa-exchange text-bold"></i> <span>技术需求管理</span>
                     <!--<span class="pull-right-container">
                       <small class="label pull-right bg-green">new</small>
@@ -81,7 +71,7 @@
             </li>
 
             <li>
-                <a href="../widgets.html">
+                <a href="<%=ctxPath %>/Studio?action=phmacPageData&fid=${regionId}&presult=0&pageIndex=1&pageSize=15">
                     <i class="fa fa-television text-green"></i> <span>登陆设备管理</span>
                     <!--<span class="pull-right-container">
                       <small class="label pull-right bg-green">new</small>
@@ -90,7 +80,7 @@
             </li>
 
             <li>
-                <a href="../widgets.html">
+                <a href="<%=ctxPath %>/Studio?action=newsList&readType=0&pageIndex=1">
                     <i class="fa fa-bullhorn text-orange"></i> <span>通知公告</span>
                     <!--<span class="pull-right-container">
                       <small class="label pull-right bg-green">new</small>
@@ -107,12 +97,12 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="../examples/invoice.html"><i class="fa fa-circle-o text-blue"></i> 科技人才联乡帮村</a></li>
-                    <li><a href="../examples/profile.html"><i class="fa fa-circle-o text-orange"></i> 领创项目示范引领</a></li>
-                    <li><a href="../examples/login.html"><i class="fa fa-circle-o text-green"></i> 乡土人才扶贫带富</a></li>
-                    <li><a href="../examples/register.html"><i class="fa fa-circle-o text-gray"></i> 情系毕节人才回归</a></li>
-                    <li><a href="../examples/lockscreen.html"><i class="fa fa-circle-o text-red"></i> 圆梦小康专家行动</a></li>
-                    <li><a href="../examples/404.html"><i class="fa fa-circle-o text-aqua"></i> 驻村干部</a></li>
+                    <li><a href="<%=ctxPath%>/Stat?action=scienceStat"><i class="fa fa-circle-o text-blue"></i> 科技人才联乡帮村</a></li>
+                    <li><a href="<%=ctxPath%>/Stat?action=createStat"><i class="fa fa-circle-o text-orange"></i> 领创项目示范引领</a></li>
+                    <li><a href="<%=ctxPath%>/Stat?action=localStat"><i class="fa fa-circle-o text-green"></i> 乡土人才扶贫带富</a></li>
+                    <li><a href="<%=ctxPath%>/Stat?action=returnStat"><i class="fa fa-circle-o text-gray"></i> 情系毕节人才回归</a></li>
+                    <li><a href="<%=ctxPath%>/Stat?action=dreamStat"><i class="fa fa-circle-o text-red"></i> 圆梦小康专家行动</a></li>
+                    <li><a href="<%=ctxPath%>/Stat?action=cadreStat"><i class="fa fa-circle-o text-aqua"></i> 驻村干部</a></li>
                 </ul>
             </li>
 
@@ -124,7 +114,7 @@
                 </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o text-green"></i> 区域人才数量</a></li>
+                    <li><a href="<%=ctxPath%>/Stat?action=areaStat"><i class="fa fa-circle-o text-green"></i> 区域人才数量</a></li>
                     <li class="treeview">
                         <a href="#"><i class="fa fa-circle-o text-orange"></i> 人才类型数量
                             <span class="pull-right-container">
@@ -132,18 +122,18 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="#"><i class="fa fa-circle-o text-green"></i> 科技副职</a></li>
-                            <li><a href="#"><i class="fa fa-circle-o text-gray"></i> 科技特派员</a></li>
-                            <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> 农业辅导员</a></li>
-                            <li><a href="#"><i class="fa fa-circle-o text-orange"></i> 驻村干部</a></li>
-                            <li><a href="#"><i class="fa fa-circle-o text-blue"></i> 领办创办人员</a></li>
-                            <li><a href="#"><i class="fa fa-circle-o text-danger"></i> 回乡创业</a></li>
-                            <li><a href="#"><i class="fa fa-circle-o text-primary"></i> 乡土人才</a></li>
+                            <li><a href="<%=ctxPath%>/Stat?action=typeStat&type=kjfz"><i class="fa fa-circle-o text-green"></i> 科技副职</a></li>
+                            <li><a href="<%=ctxPath%>/Stat?action=typeStat&type=kjtpy"><i class="fa fa-circle-o text-gray"></i> 科技特派员</a></li>
+                            <li><a href="<%=ctxPath%>/Stat?action=typeStat&type=nyfdy"><i class="fa fa-circle-o text-aqua"></i> 农业辅导员</a></li>
+                            <li><a href="<%=ctxPath%>/Stat?action=typeStat&type=zcgb"><i class="fa fa-circle-o text-orange"></i> 驻村干部</a></li>
+                            <li><a href="<%=ctxPath%>/Stat?action=typeStat&type=lbcbry"><i class="fa fa-circle-o text-blue"></i> 领办创办人员</a></li>
+                            <li><a href="<%=ctxPath%>/Stat?action=typeStat&type=hxcy"><i class="fa fa-circle-o text-danger"></i> 回乡创业</a></li>
+                            <li><a href="<%=ctxPath%>/Stat?action=typeStat&type=xtrc"><i class="fa fa-circle-o text-primary"></i> 乡土人才</a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><i class="fa fa-circle-o text-green"></i> 专家组成员</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o text-gray"></i> 日志数量</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o text-blue"></i> 培训类型</a></li>
+                    <li><a href="<%=ctxPath%>/Stat?action=proStat"><i class="fa fa-circle-o text-green"></i> 专家组成员</a></li>
+                    <li><a href="<%=ctxPath%>/Stat?action=logStat"><i class="fa fa-circle-o text-gray"></i> 日志数量</a></li>
+                    <li><a href="<%=ctxPath%>/Stat?action=trainTypeStat"><i class="fa fa-circle-o text-blue"></i> 培训类型</a></li>
                 </ul>
             </li>
 
@@ -164,7 +154,7 @@
               </ul>
             </li>-->
             <li>
-                <a href="../widgets.html">
+                <a href="<%=ctxPath%>/Work?action=workList&pageIndex=1">
                     <i class="fa fa-thumbs-up text-green"></i> <span>工作动态</span>
                     <!--<span class="pull-right-container">
                       <small class="label pull-right bg-green">new</small>
@@ -173,7 +163,7 @@
             </li>
 
             <li>
-                <a href="../widgets.html">
+                <a href="<%=ctxPath%>/Manage?action=manageList&region1=0&region2=0&region3=0">
                     <i class="fa fa-users text-light-blue"></i> <span>人才信息</span>
                     <!--<span class="pull-right-container">
                       <small class="label pull-right bg-green">new</small>

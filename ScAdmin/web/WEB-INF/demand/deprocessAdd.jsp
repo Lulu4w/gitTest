@@ -22,7 +22,7 @@
 
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>处理状态：</label>
-            <div class="formControls col-xs-8 col-sm-9">
+            <div class="formControls col-xs-4 col-sm-5">
 				<span class="select-box">
 				<select name="status" class="select" id="status">
 					<option value="0" selected>等待处理</option>
@@ -37,7 +37,7 @@
 
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2">处理意见：</label>
-            <div class="formControls col-xs-8 col-sm-9">
+            <div class="formControls col-xs-4 col-sm-5">
                 <textarea name="presult" id="presult" cols="" rows="" class="textarea"  placeholder="请输入处理意见（500字以内）" datatype="*0-100" dragonfly="true" onKeyUp="$.Huitextarealength(this,500)"></textarea>
             </div>
         </div>

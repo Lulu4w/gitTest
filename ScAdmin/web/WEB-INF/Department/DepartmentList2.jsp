@@ -33,8 +33,8 @@
                 <small>单位(部门)列表</small>
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                <li class="active">Data tables</li>
+                <li><a href="<%=ctxPath%>/Index?action=index"><i class="fa fa-dashboard"></i> 主页</a></li>
+                <li class="active">单位部门</li>
             </ol>
         </section>
 
@@ -105,12 +105,39 @@
 <script type="text/javascript">
     $(function () {
         $('#example2').DataTable({
-            'paging'      : false,
+            'paging'      : true,
             'lengthChange': false,
-            'searching'   : false,
+            'searching'   : true,
             'ordering'    : true,
             'info'        : true,
-            'autoWidth'   : true
+            'autoWidth'   : true,
+            'bStateSave'  : true,
+            "pageLength" : 18,
+
+            language: {
+                "sProcessing": "处理中...",
+                "sLengthMenu": "显示 _MENU_ 项结果",
+                "sZeroRecords": "没有匹配结果",
+                "sInfo": "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
+                "sInfoEmpty": "显示第 0 至 0 项结果，共 0 项",
+                "sInfoFiltered": "(由 _MAX_ 项结果过滤)",
+                "sInfoPostFix": "",
+                "sSearch": "搜索: ",
+                "sUrl": "",
+                "sEmptyTable": "表中数据为空",
+                "sLoadingRecords": "载入中...",
+                "sInfoThousands": ",",
+                "oPaginate": {
+                    "sFirst": "首页",
+                    "sPrevious": "上一页",
+                    "sNext": "下一页",
+                    "sLast": "末页"
+                },
+                "oAria": {
+                    "sSortAscending": ": 以升序排列此列",
+                    "sSortDescending": ": 以降序排列此列"
+                }
+            }
         })
         layer.config({
             skin:"box box-primary"
@@ -149,4 +176,3 @@
 </script>
 </body>
 </html>
-

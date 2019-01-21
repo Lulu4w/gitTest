@@ -6,6 +6,7 @@ import cn.edu.gues.ScDemo.admin.utils.ability.AbilityD;
 import cn.edu.gues.ScDemo.admin.utils.ability.AbilityResult;
 import cn.edu.gues.ScDemo.admin.utils.work.*;
 import cn.edu.gues.ScDemo.tools.AjaxResult;
+import cn.edu.gues.ScDemo.tools.CommonUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -38,7 +39,7 @@ public class WorkServlet extends BaseServlet {
         req.setAttribute("pageNo", pageNo);
         req.setAttribute("totalCount", totalCount);
 
-        req.getRequestDispatcher("/WEB-INF/work/workList.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/work/workListLte.jsp").forward(req, resp);
     }
 
     public void dianzan(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -99,7 +100,7 @@ public class WorkServlet extends BaseServlet {
 
         String sendertel = AbilityAPI.QueryTbPeopleinfoById(AdminUtils.getAdminUserId(req).toString()).getD().getPTEL();
 
-        String content = req.getParameter("content");
+        String content = CommonUtils.urlEncodeUTF8(req.getParameter("content"));
 
         AjaxResult result = WorkAPI.AddComment(workid, sender, sendertel, reserver,reservertel,content, remark);
 

@@ -82,6 +82,6 @@ public class IndexServlet extends BaseServlet {
         req.setAttribute("newsNum", newsNum);
         req.setAttribute("regionId", regionId);
         req.setAttribute("regionName", region.getRD_SHORTNAME());
-        req.getRequestDispatcher("WEB-INF/index.jsp").forward(req, resp);
+        req.getRequestDispatcher("WEB-INF/indexlte.jsp").forward(req, resp);
     }
 }

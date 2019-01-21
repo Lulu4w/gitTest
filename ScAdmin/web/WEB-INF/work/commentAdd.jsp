@@ -10,7 +10,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <%@include file="/WEB-INF/header.jsp" %>
+    <%@include file="/WEB-INF/headerLte.jsp" %>
     <title>添加评论</title>
 </head>
 <body>
@@ -24,17 +24,21 @@
 
 
         <div class="row cl">
-            <label class="form-label col-xs-4 col-sm-2">评论：</label>
-            <div class="formControls col-xs-8 col-sm-9">
-                <textarea name="content" id="content" cols="" rows="" class="textarea"  placeholder="请输入内容（500字以内）" datatype="*0-500" dragonfly="true" onKeyUp="$.Huitextarealength(this,500)"></textarea>
+            <div class="col-xs-1"></div>
+            <div class="col-md-6 col-xs-10">
+                <div class="box-body">
+                    <div class="form-group">
+                        <label for="content"><span class="c-red">*</span>评论内容：</label>
+                        <textarea class="form-control col-lg-5" id="content" name="content" placeholder="输入评论内容"></textarea>
+                    </div>
+                </div>
+                <!-- /.box-body -->
+                <div class="box-footer">
+                    <button type="button" class="btn btn-block btn-primary" id="btnSave" class="btn btn-primary">提交</button>
+                </div>
             </div>
         </div>
 
-        <div class="row cl">
-            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
-                <input class="btn btn-primary radius" id="btnSave" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
-            </div>
-        </div>
     </form>
 </article>
 

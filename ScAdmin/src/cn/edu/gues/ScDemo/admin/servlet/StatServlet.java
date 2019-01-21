@@ -24,12 +24,13 @@ public class StatServlet  extends BaseServlet{
         QueryRegionTotalResult queryRegionTotalResult = StatAPI.QueryRegionTotal(regionId);
 
         CityTotalD cityTotalD = cityTotalResult.getD();
+
         QueryRegionTotalD[] queryRegionTotalDS = queryRegionTotalResult.getD().toArray(new QueryRegionTotalD[queryRegionTotalResult.getD().size()]);
 
         req.setAttribute("cityTotalD", cityTotalD);
         req.setAttribute("regionD", queryRegionTotalDS);
 
-        req.getRequestDispatcher("/WEB-INF/stat/scienceStat.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/stat/scienceStatLte.jsp").forward(req, resp);
     }
 
 
@@ -44,7 +45,7 @@ public class StatServlet  extends BaseServlet{
         req.setAttribute("cityTotalD", cityTotalD);
         req.setAttribute("regionD", queryRegionTotalDS);
 
-        req.getRequestDispatcher("/WEB-INF/stat/createStat.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/stat/createStatLte.jsp").forward(req, resp);
     }
     public void localStat(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         regionId = AdminUtils.getAdminUserRegionId(req);
@@ -55,7 +56,7 @@ public class StatServlet  extends BaseServlet{
         req.setAttribute("cityTotalD", cityTotalD);
         req.setAttribute("regionD", queryRegionTotalDS);
 
-        req.getRequestDispatcher("/WEB-INF/stat/localStat.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/stat/localStatLte.jsp").forward(req, resp);
     }
     public void returnStat(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         regionId = AdminUtils.getAdminUserRegionId(req);
@@ -66,7 +67,7 @@ public class StatServlet  extends BaseServlet{
         req.setAttribute("cityTotalD", cityTotalD);
         req.setAttribute("regionD", queryRegionTotalDS);
 
-        req.getRequestDispatcher("/WEB-INF/stat/returnStat.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/stat/returnStatLte.jsp").forward(req, resp);
     }
     public void dreamStat(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         regionId = AdminUtils.getAdminUserRegionId(req);
@@ -77,7 +78,7 @@ public class StatServlet  extends BaseServlet{
         req.setAttribute("cityTotalD", cityTotalD);
         req.setAttribute("regionD", queryRegionTotalDS);
 
-        req.getRequestDispatcher("/WEB-INF/stat/dreamStat.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/stat/dreamStatLte.jsp").forward(req, resp);
     }
     public void cadreStat(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         regionId = AdminUtils.getAdminUserRegionId(req);
@@ -88,7 +89,7 @@ public class StatServlet  extends BaseServlet{
         req.setAttribute("cityTotalD", cityTotalD);
         req.setAttribute("regionD", queryRegionTotalDS);
 
-        req.getRequestDispatcher("/WEB-INF/stat/cadreStat.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/stat/cadreStatLte.jsp").forward(req, resp);
     }
     public void areaStat(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         regionId = AdminUtils.getAdminUserRegionId(req);
@@ -97,19 +98,25 @@ public class StatServlet  extends BaseServlet{
         PnumByRegionD[] pnumByRegionDS = pnumByRegionResult.getD().toArray(new PnumByRegionD[pnumByRegionResult.getD().size()]);
         req.setAttribute("pnumByRegionDs", pnumByRegionDS);
 
-        req.getRequestDispatcher("/WEB-INF/stat/areaStat.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/stat/areaStatLte.jsp").forward(req, resp);
     }
 
 
     public void typeStat(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String type = req.getParameter("type");
+
         regionId = AdminUtils.getAdminUserRegionId(req);
 
         CityTotalResult cityTotalResult = StatAPI.GroupByCountyTotal(regionId);
         QueryRegionTotalResult queryRegionTotalResult = StatAPI.QueryRegionTotal(regionId);
+
+        QueryRegionTotalD[] queryRegionTotalDS = queryRegionTotalResult.getD().toArray(new QueryRegionTotalD[queryRegionTotalResult.getD().size()]);
+
         CityTotalD cityTotalD = cityTotalResult.getD();
         req.setAttribute("cityTotal", cityTotalD);
+        req.setAttribute("regionD", queryRegionTotalDS);
 
-        req.getRequestDispatcher("/WEB-INF/stat/typeStat.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/stat/"+type+".jsp").forward(req, resp);
     }
 
 
@@ -119,7 +126,7 @@ public class StatServlet  extends BaseServlet{
         ZjzByRegionResult zjzByRegionResult = StatAPI.ZjzTypeByRegion(regionId);
         ZjzByRegionD[] zjzByRegionDS = zjzByRegionResult.getD().toArray(new ZjzByRegionD[zjzByRegionResult.getD().size()]);
         req.setAttribute("zjz", zjzByRegionDS);
-        req.getRequestDispatcher("/WEB-INF/stat/proStat.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/stat/proStatLte.jsp").forward(req, resp);
     }
 
 
@@ -130,7 +137,7 @@ public class StatServlet  extends BaseServlet{
         WorkTotalD workTotalD = workTotalResult.getD();
         req.setAttribute("workTotal", workTotalD);
 
-        req.getRequestDispatcher("/WEB-INF/stat/logStat.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/stat/logStatLte.jsp").forward(req, resp);
     }
 
 
@@ -141,6 +148,6 @@ public class StatServlet  extends BaseServlet{
         TrainD trainD = trainResult.getD();
         req.setAttribute("train", trainD);
 
-        req.getRequestDispatcher("/WEB-INF/stat/trainTypeStat.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/stat/trainTypeStatLte.jsp").forward(req, resp);
     }
 }

@@ -43,6 +43,23 @@ public class AdminUtils {
 		return id;
 	}
 
+	public static void setAdminName(HttpServletRequest req, String adminUserName){
+		req.getSession().setAttribute("AdminUserName", adminUserName);
+	}
+	public static String getAdminName(HttpServletRequest req){
+		String name = (String)req.getSession().getAttribute("AdminUserName");
+		return name;
+	}
+
+	public static void setPicName(HttpServletRequest req, String picPath){
+		req.getSession().setAttribute("picPath", picPath);
+	}
+	public static String getPicName(HttpServletRequest req){
+		String name = (String)req.getSession().getAttribute("picPath");
+		return name;
+	}
+
+
 
 
 }

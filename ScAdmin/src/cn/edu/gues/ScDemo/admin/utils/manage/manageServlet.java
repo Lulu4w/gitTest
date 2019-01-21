@@ -36,6 +36,6 @@ public class manageServlet extends BaseServlet {
 
         //writeJson(resp, new AjaxResult("ok","", cityTotalD));
 
-        req.getRequestDispatcher("/WEB-INF/manage/manageList.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/manage/manageListLte.jsp").forward(req, resp);
     }
 }

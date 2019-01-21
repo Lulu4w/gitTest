@@ -11,40 +11,37 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Log in</title>
+    <title>Admin | 登录</title>
     <%@include file="headerLte.jsp"%>
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="../../index2.html"><b>Admin</b>LTE</a>
+        <a href="#"><b>Admin</b></a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
-        <p class="login-box-msg">登陆&nbsp;&nbsp;|&nbsp;&nbsp;开始你的管理</p>
+        <p class="login-box-msg">登录&nbsp;&nbsp;|&nbsp;&nbsp;开始你的管理</p>
 
         <form id="formLogin" method="post">
             <input type="hidden" name="action" value="loginSubmit"/>
             <div class="form-group has-feedback">
-                <input type="text" id="phoneNum" name="phoneNum" class="form-control" placeholder="输入账号">
+                <input type="text" id="phoneNum" name="phoneNum" class="form-control" placeholder="输入账号" value="13639108097"/>
                 <span class="glyphicon glyphicon-phone form-control-feedback"></span>
             </div>
             <div class="form-group has-feedback">
-                <input type="password" id="password" name="password" class="form-control" placeholder="输入密码">
+                <input type="password" id="password" name="password" class="form-control" placeholder="输入密码" value="123456"/>
                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
             </div>
         </form>
         <div class="row">
 
             <div class="col-xs-12">
-                <button type="submit" id="btnLogin" class="btn btn-primary btn-block btn-flat">点击登陆</button>
+                <button type="submit" id="btnLogin" class="btn btn-primary btn-block btn-flat">点击登录</button>
             </div>
             <!-- /.col -->
         </div>
-
-
         <!-- /.social-auth-links -->
-
         <br/>
         <a href="#">忘记密码?</a><br>
         <%--<a href="register.html" class="text-center">Register a new membership</a>--%>

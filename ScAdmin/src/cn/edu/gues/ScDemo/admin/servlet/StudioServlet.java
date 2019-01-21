@@ -144,7 +144,7 @@ public class StudioServlet extends BaseServlet {
         req.setAttribute("pageNo", pageNo);
         req.setAttribute("totalCount", totalCount);
 
-        req.getRequestDispatcher("/WEB-INF/ability/abilityList.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/ability/abilityListLte.jsp").forward(req, resp);
     }
 
 
@@ -172,20 +172,24 @@ public class StudioServlet extends BaseServlet {
 
     public void searchNameOrTel(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String regionId = String.valueOf(AdminUtils.getAdminUserRegionId(req));
-        String nameortel = req.getParameter("nameortel");
+        String nameortel = CommonUtils.urlEncodeUTF8(req.getParameter("nameortel"));
 
         int pageNo = Integer.parseInt(req.getParameter("pageIndex"));
 
         AbilityResult abilityResult = AbilityAPI.QueryTbPeopleShortByNameOrTel(regionId, nameortel, pageNo, 15);
 
         AbilityD[] abilities = abilityResult.getD().toArray(new AbilityD[abilityResult.getD().size()]);
-
-        int totalCount = abilityResult.getD().get(0).getSumTotl();
         String phid = "";
-        for(int i = 0; i < abilities.length-1; i++){
-            phid += abilities[i].getPID()+",";
+        int totalCount = 0;
+        if(abilityResult.getD().size() != 0){
+            abilityResult.getD().get(0).getSumTotl();
+            for(int i = 0; i < abilities.length-1; i++){
+                phid += abilities[i].getPID()+",";
+            }
+            phid += abilities[abilities.length-1].getPID();
         }
-        phid += abilities[abilities.length-1].getPID();
+
+
 
         req.setAttribute("phid", phid);
         req.setAttribute("regionId", AdminUtils.getAdminUserRegionId(req));
@@ -230,7 +234,7 @@ public class StudioServlet extends BaseServlet {
 
         req.setAttribute("auditId", pid);
 
-        req.getRequestDispatcher("/WEB-INF/phmac/phmacList.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/phmac/phmacListLte.jsp").forward(req, resp);
     }
 
     // AuditTbphmac(string phid, string presult,string auditid)//0-未审核，1-审核通过，2-审核未通过   phid主键，presult审核结果，处理人id
@@ -289,7 +293,7 @@ public class StudioServlet extends BaseServlet {
         req.setAttribute("demands", demands);
         req.setAttribute("tid", tid);
         //req.setAttribute("totalCount", totalCount);
-        req.getRequestDispatcher("/WEB-INF/demand/demandList.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/demand/demandListLte.jsp").forward(req, resp);
     }
 
     public void demandDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -323,7 +327,7 @@ public class StudioServlet extends BaseServlet {
         req.setAttribute("txid", txid);
 
 
-        req.getRequestDispatcher("/WEB-INF/demand/deprocessList.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/demand/deprocessListLte.jsp").forward(req, resp);
     }
 
     public void deprocessDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -388,7 +392,7 @@ public class StudioServlet extends BaseServlet {
         req.setAttribute("pageNo", pageNo);
         req.setAttribute("totalCount", totalCount);
 
-        req.getRequestDispatcher("/WEB-INF/news/newsList.jsp").forward(req, resp);
+        req.getRequestDispatcher("/WEB-INF/news/newsListLte.jsp").forward(req, resp);
     }
 
 
@@ -420,14 +424,14 @@ public class StudioServlet extends BaseServlet {
     public void newsAddSubmit(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         regionId = AdminUtils.getAdminUserRegionId(req);
         pid = AdminUtils.getAdminUserId(req);
-        String ptype = req.getParameter("ptype");
+        String ptype = CommonUtils.urlEncodeUTF8(req.getParameter("ptype"));
 
-        String region1 = req.getParameter("region1");
-        String region2 = req.getParameter("region2");
-        String region3 = req.getParameter("region3");
+        String region1 = CommonUtils.urlEncodeUTF8(req.getParameter("region1"));
+        String region2 = CommonUtils.urlEncodeUTF8(req.getParameter("region2"));
+        String region3 = CommonUtils.urlEncodeUTF8(req.getParameter("region3"));
 
-        String newstitle = req.getParameter("newstitle");
-        String newscontent = req.getParameter("newscontent");
+        String newstitle = CommonUtils.urlEncodeUTF8(req.getParameter("newstitle"));
+        String newscontent = CommonUtils.urlEncodeUTF8(req.getParameter("newscontent"));
 
         //String sender = AdminUtils.getAdminUserId(req).toString();
         String sender = pid;
